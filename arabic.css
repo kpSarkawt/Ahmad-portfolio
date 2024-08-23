@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cairo', sans-serif;
     font-weight: 700;
     box-sizing: border-box;
     margin: 0;
@@ -12,8 +12,6 @@ body {
     background-color: hsl(221, 51%, 20%) !important;
     overflow-x: hidden;
     /* Prevent horizontal scrolling */
-    margin: 0;
-    padding: 0;
 }
 
 ul {
@@ -21,7 +19,6 @@ ul {
     flex-direction: row;
     justify-content: center;
     padding: 10px;
-    margin: 0;
 }
 
 ul li {
@@ -35,23 +32,13 @@ ul li:hover {
     text-shadow: 1px 1px 5px hsl(221, 51%, 10%);
     color: orange;
 }
-hr{
-    margin: 0;
-}
+
 .title h1 {
     overflow: hidden;
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .15em;
     margin-top: 20px;
-}
-
-.title p {
-    margin: 10px auto;
-}
-
-.social-icons {
-    margin-top: 30px;
 }
 
 .social-icons .social-icon {
@@ -65,14 +52,12 @@ hr{
 }
 
 .about-me {
-    margin-top: 230px;
+    margin-top: 220px;
     padding: 0 20px;
-    text-align: center;
 }
 
 footer {
     padding: 20px 0;
-    text-align: center;
 }
 
 footer a {
@@ -82,8 +67,4 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-}
-
-footer p {
-    margin: 5px 0;
 }

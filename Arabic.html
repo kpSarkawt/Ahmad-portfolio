@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>مَلَفّي</title>
+    <link rel="stylesheet" href="/css files/arabic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="animate__animated animate__fadeInDown">
+        <ul class="d-flex justify-content-center">
+            <li><a href="/html files/kurdish.html" class="text-decoration-none text-white">الكردي</a></li>
+            <li><a href="/html files/index.html" class="text-decoration-none text-white ms-4">الإنجليزية</a></li>
+            <li><a href="/html files/Arabic.html" class="text-decoration-none text-white ms-4">العربية</a></li>
+        </ul>
+        <hr class="text-white m-0 p-0">
+    </header>
+
+    <!-- Profile Image Section -->
+    <img src="/Images/ProfileImage.jpg" class="rounded mx-auto d-block animate__animated animate__fadeInRight" style="width: 85%; margin-top: 50px;">
+
+    <!-- Title Section -->
+    <div class="title text-center">
+        <h1 style="color: #FCA311;" class="animate__animated animate__fadeInUp">احمد محمد</h1>
+        <p class="text-white animate__animated animate__fadeIn" id="underH1">(طلاب التمريض)</p>
+    </div>
+
+    <!-- About Me Section -->
+    <div class="about-me">
+        <h1 class="text-center text-warning">وصف نفسي</h1>
+        <p class="text-white text-center m-2">
+            مرحباً، اسمي أحمد. أرى نفسي شخصاً جاداً ومثابراً. أسعى دائماً إلى إنجاز المهام بأفضل ما أستطيع. لدي مستوى عالٍ من الالتزام بعملي وأهدافي، وأطمح إلى التحسن المستمر في مجالي. أنا شغوف بالمساهمة في المجتمع وإحداث تأثير إيجابي.
+        </p>
+    </div>
+
+    <!-- Social Media Icons Section -->
+    <div class="social-icons text-center mt-4">
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="https://img.icons8.com/color/48/000000/facebook.png" class="social-icon" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="https://img.icons8.com/color/48/000000/instagram-new.png" class="social-icon" alt="Instagram">
+        </a>
+        <a href="https://www.snapchat.com" target="_blank">
+            <img src="https://img.icons8.com/color/48/000000/snapchat.png" class="social-icon" alt="Snapchat">
+        </a>
+        <br>
+        <a href="tel:+9647701463739" class="btn btn-primary mt-3" style="border-radius: 8px; padding: 8px 16px;">اتصل بي</a>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="text-center text-white mt-5">
+        <hr class="text-white">
+        <p>Email: <a href="mailto:ahmad.muhammad123@gmail.com" style="color: #FCA311;">ahmad.muhammad123@gmail.com</a></p>
+        <p>Phone: +964 770 146 3739</p>
+        <p>This Web Developed by: Sarkawt</p>
+    </footer>
+
+    <!-- JavaScript Section -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            let underH1 = document.getElementById('underH1');
+            underH1.style.display = 'none';
+            setTimeout(() => underH1.style.display = 'block', 1100);
+        });
+    </script>
+</body>
+</html>
